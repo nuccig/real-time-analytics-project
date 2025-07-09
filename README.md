@@ -82,6 +82,9 @@ aws lambda create-event-source-mapping --event-source-arn arn:aws:kinesis:region
 ```
 
 ## 🛠️ Arquitetura do Sistema
+
+![image](https://github.com/user-attachments/assets/8659e4f2-c1fd-4536-96aa-6d4309f089b8)
+
 ### Fluxo de Dados
 1. **Lambda Producer** coleta dados da API Tomorrow.io
 2. **Kinesis Data Stream** recebe e distribui dados
